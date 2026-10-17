@@ -5,7 +5,7 @@ import yt_dlp
 # Reading credentials from environment variables (GitHub Secrets)
 API_ID = int(os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8837199130:AAEVl7j7i1H2g4WOBvE0hJxDplo0LoimjlA")
 
 app = Client("media_downloader_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
